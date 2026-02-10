@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survery or feedback form</title>
+</head>
+<body>
+    <h2>feedback form</h2>
+
+    <form>
+
+        <!-- Name -->
+        <label>Name:</label>
+        <input type="text" name="name"><br><br>
+
+        <!-- Email -->
+        <label>Email:</label><br>
+        <input type="email" name="email"><br><br>
+
+            <!-- How did you find us -->
+             <p>How did you find us?</p>
+             <input type="radio" id="google" name="source" value="google">
+             <label for="google">Google</label><br>
+
+             <input type="radio" id="friend" name="source" value="friend">
+             <label for="social">social Media</label><br><br>
+
+             <!-- feedback -->
+              <label for="feedback">Your feedback:</label>
+              <textarea id="feedback" name="feedback" raw="4" cols="40"></textarea>
+
+              <!-- Recommend -->
+               <p>Would you recommend us?</p>
+               <input type="radio" id="yes" name="recommend" value="yes">
+               <label for="Yes">Yes</label>
+
+               <input type="radio" id="No" name="recommend" value="No">
+               <label for="No">No</label><br><br>
+
+               <!-- submit buttion -->
+                <button style="color: rgb(170, 0, 255);" type="submit">submit feedback</button>
+
+    </form>
+</body>
+</html>
